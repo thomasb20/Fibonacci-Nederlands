@@ -27,7 +27,7 @@ class Fib
         // Als n < 0
         if (n < 0)
         {
-            Console.WriteLine("Invalide getal! Voer een getal groter dan 0 in.");
+            Console.WriteLine("Invalide getal! Voer een positief getal in!");
             return -1;
         }
 
