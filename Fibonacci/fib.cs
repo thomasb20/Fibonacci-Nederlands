@@ -12,7 +12,7 @@ class Fib
         BigInteger result = Fibonacci(n);
         Console.WriteLine(result);
         BigInteger lenght = result.ToString().Length;
-        using (StreamWriter file = new StreamWriter("C:\\Users\\backup\\source\\repos\\CodeCamp\\FirstProject\\FirstProject\\fib.txt"))
+        using (StreamWriter file = new StreamWriter("./fib.txt"))
         {
             file.Write(result);
             file.Close();
